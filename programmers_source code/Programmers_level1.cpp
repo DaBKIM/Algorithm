@@ -437,3 +437,28 @@ vector<string> solution(vector<string> strings, int n) {
 }
 
 
+// 문자열 내 p와 y의 개수
+// s에 'p'의 개수와 'y'의 개수를 비교해 같으면 True, 다르면 False를 return
+// 대소문자 구분 x
+
+#include <string>
+#include <algorithm>
+#include <iostream>
+using namespace std;
+
+bool solution(string s)
+{
+    bool answer = true;
+    int pNum=0;
+    int yNum=0;
+    
+    for(int i = 0;i<s.length();i++){
+        if(s[i]=='p' || s[i]=='P') pNum++;
+        if(s[i]=='y' || s[i]=='Y') yNum++;
+    }
+    
+    if(pNum==yNum) answer = true;
+    else answer = false;
+
+    return answer;
+}
