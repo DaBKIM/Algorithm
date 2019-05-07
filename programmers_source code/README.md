@@ -1,28 +1,33 @@
-<h1> PROGRAMMERS </h1>
+<h1> #PROGRAMMERS </h1>
 
-<ol> 
- <li> 레벨 별 소스코드 파일 존재</li>
- <li> 해당 레벨 파일 내에서 ctrl+f로 제목명을 통해 function code를 찾을 수 있음</li>
- <li> 레벨 완료 전까지 지속적인 UPDATE 예정 </li>
-</ol>
+<ul> 
+ <li> All source codes exist by 'Level'.</li>
+ <li> Function code can be found by subject name(ctrl+f) within that level file.</li>
+ <li> There will be continuous updates before all levels are completed. </li>
+</ul>
 <br>
 
-+ level 1
-<ul>
- <p>- 소수의 합 </p>
- <p>- 완주하지 못한 선수 </p>
- <p>- 모의고사 </p>
- <p>- K번째 수 </p>
- <p>- 체육복 </p>
- <p>- 2016 </p>
- <p>- 가운데 글자 가져오기 </p>
- <p>- 같은 숫자는 싫어 </p>
- <p>- 나누어 떨어지는 숫자 배열 </p>
- <p>- 두 정수 사이의 합 </p>
- <p>- 문자열 내 마음대로 정렬하기 </p>
-</ul>
-
-+ level 2
-<ul>
- <p>- H-index</p>
-</ul>
+<ol>
+ <li> level 1
+  <ul>
+   <li> 소수의 합 </li>
+   <li> 완주하지 못한 선수 </li>
+   <li> 모의고사 </li>
+   <li> K번째 수 </li>
+   <li> 체육복 </li>
+   <li> 2016 </li>
+   <li> 가운데 글자 가져오기 </li>
+   <li> 같은 숫자는 싫어 </li>
+   <li> 나누어 떨어지는 숫자 배열 </li>
+   <li> 두 정수 사이의 합 </li>
+   <li> 문자열 내 마음대로 정렬하기 </li>
+   <li> 문자열 내 p와 y의 개수 </li>
+  </ul>
+ </li>
+<br>
+ <li> level 2
+  <ul>
+   <li> H-index</li>
+  </ul>
+ </li>
+</ol>
